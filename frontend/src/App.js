@@ -3,7 +3,7 @@ import Plans from "./components/plans";
 import FAQs from "./components/faqs";
 import Navbar from "./components/navbar/index.jsx";
 
-//Comienza a correr la app renderizando componentes como Navbar, Plans, Features y FAQs
+//Comienza a correr la app renderizando componentes como Navbar, Plans y FAQs
 
 function App() {
   return (
