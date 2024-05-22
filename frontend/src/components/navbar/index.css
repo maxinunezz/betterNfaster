@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar img {
+  height: 60px;
+}
+
+.navbar .logo span {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar .menu {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.navbar .menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.navbar .menu a:hover {
+  text-decoration: underline;
+}
+
+.navbar .actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar .actions button {
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar .actions .sales-btn {
+  border-color: #764abc;
+  color: #764abc;
+  background: none;
+}
+
+.navbar .actions .free-btn {
+  background-color: #764abc;
+  color: white;
+}
+
+.navbar .actions .sales-btn:hover {
+  background-color: #764abc;
+  color: white;
+}
+
+.navbar .actions .free-btn:hover {
+  background-color: #5a3e9a;
+}
+
+.navbar .search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.navbar .search-icon {
+  font-size: 20px;
+  color: #ccc;
+}

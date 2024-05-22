@@ -1,0 +1,15 @@
+.faq_root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.faq_title {
+  font-weight: 600;
+  color: #000;
+  font-size: 23px;
+}
